@@ -11,11 +11,11 @@ h3{
 p{
     font-size: 17px;
 }
-.name-color{
+.text-color{
     color: goldenrod;
 }
 .half-width{
-    width: 42%;
+    width: 40%;
     float: left;
     margin: 2%;
     padding: 2%;
@@ -27,6 +27,7 @@ p{
 .header-bg{
     background-image: url(header-bg.png);
     background-repeat: no-repeat;
+    height: 500px;
 }
 section{
     height: 500px;
@@ -38,4 +39,33 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     border: 0;
+}
+.second-section{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+.experiences-box{
+    box-shadow: 10px 10px 40px gainsboro;
+    border-radius: 20px;
+}
+.experiences-bg{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;  
+}
+.flex-box{
+    float: left;
+}
+#full-stack-gradiant{
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#beginner-gradiant{
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg,lightBlue, blue);
+    border-image-slice: 1;
 }
